@@ -1,0 +1,3 @@
+/Users/omricarmi/Technion/Mmt/hw/hw5/clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/omricarmi/Technion/Mmt/hw/hw5/clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/omricarmi/Technion/Mmt/hw/hw5/clion/cmake-build-debug/CMakeFiles/clion.dir

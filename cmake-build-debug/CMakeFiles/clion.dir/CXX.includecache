@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.cpp
+complex.h
+/Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.h
+
+/Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.h
+iostream
+-
+
+/Users/omricarmi/Technion/Mmt/hw/hw5/clion/test.cpp
+iostream
+-
+cassert
+-
+complex.h
+/Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.h
+
