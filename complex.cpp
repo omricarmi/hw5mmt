@@ -11,11 +11,11 @@ complex::complex(int real, int img) {
 
 }
 
-complex &complex::operator+=(const complex &rhs) {
-    re_ += rhs.re_;
-    im_ += rhs.im_;
-    return *this;
-}
+//complex &complex::operator+=(const complex &rhs) {
+//    re_ += rhs.re_;
+//    im_ += rhs.im_;
+//    return *this;
+//}
 
 complex complex::operator+(const complex &rhs) const{
     return complex(re_+rhs.re_,im_+rhs.im_);
@@ -25,21 +25,21 @@ complex complex::operator-(const complex &rhs) const{
     return complex(re_-rhs.re_,im_-rhs.im_);
 }
 
-complex &complex::operator-=(const complex &rhs) {
-    re_ -= rhs.re_;
-    im_ -= rhs.im_;
-    return *this;
-}
+//complex &complex::operator-=(const complex &rhs) {
+//    re_ -= rhs.re_;
+//    im_ -= rhs.im_;
+//    return *this;
+//}
 
 complex complex::operator*(const complex &rhs) const{
     return complex(re_*rhs.re_ - im_*rhs.im_,im_*rhs.re_ + re_*rhs.im_);
 }
 
-complex &complex::operator*=(const complex &rhs) {
-    re_ *= re_*rhs.re_ - im_*rhs.im_;
-    im_ *= im_*rhs.re_ + re_*rhs.im_;
-    return *this;
-}
+//complex &complex::operator*=(const complex &rhs) {
+//    re_ *= re_*rhs.re_ - im_*rhs.im_;
+//    im_ *= im_*rhs.re_ + re_*rhs.im_;
+//    return *this;
+//}
 
 complex conj(const complex& c){
     return complex(c.re_,-1*c.im_);

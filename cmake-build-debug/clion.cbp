@@ -86,6 +86,12 @@
 		<Unit filename="/Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.h">
 			<Option target="clion"/>
 		</Unit>
+		<Unit filename="/Users/omricarmi/Technion/Mmt/hw/hw5/clion/polynom.cpp">
+			<Option target="clion"/>
+		</Unit>
+		<Unit filename="/Users/omricarmi/Technion/Mmt/hw/hw5/clion/polynom.h">
+			<Option target="clion"/>
+		</Unit>
 		<Unit filename="/Users/omricarmi/Technion/Mmt/hw/hw5/clion/test.cpp">
 			<Option target="clion"/>
 		</Unit>

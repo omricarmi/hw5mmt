@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.cpp" "/Users/omricarmi/Technion/Mmt/hw/hw5/clion/cmake-build-debug/CMakeFiles/clion.dir/complex.cpp.o"
+  "/Users/omricarmi/Technion/Mmt/hw/hw5/clion/polynom.cpp" "/Users/omricarmi/Technion/Mmt/hw/hw5/clion/cmake-build-debug/CMakeFiles/clion.dir/polynom.cpp.o"
   "/Users/omricarmi/Technion/Mmt/hw/hw5/clion/test.cpp" "/Users/omricarmi/Technion/Mmt/hw/hw5/clion/cmake-build-debug/CMakeFiles/clion.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

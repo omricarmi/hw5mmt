@@ -17,11 +17,11 @@ public:
 
     //Operators - Arithmetic
     complex operator+(const complex& rhs) const;
-    complex& operator+=(const complex& rhs);
+//    complex& operator+=(const complex& rhs);
     complex operator-(const complex& rhs)const;
-    complex& operator-=(const complex& rhs);
+//    complex& operator-=(const complex& rhs);
     complex operator*(const complex& rhs)const;
-    complex& operator*=(const complex& rhs);
+//    complex& operator*=(const complex& rhs);
 
 
     //Operators - IO Stream

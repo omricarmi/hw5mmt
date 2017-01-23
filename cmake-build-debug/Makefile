@@ -150,6 +150,33 @@ complex.cpp.s:
 	$(MAKE) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/complex.cpp.s
 .PHONY : complex.cpp.s
 
+polynom.o: polynom.cpp.o
+
+.PHONY : polynom.o
+
+# target to build an object file
+polynom.cpp.o:
+	$(MAKE) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/polynom.cpp.o
+.PHONY : polynom.cpp.o
+
+polynom.i: polynom.cpp.i
+
+.PHONY : polynom.i
+
+# target to preprocess a source file
+polynom.cpp.i:
+	$(MAKE) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/polynom.cpp.i
+.PHONY : polynom.cpp.i
+
+polynom.s: polynom.cpp.s
+
+.PHONY : polynom.s
+
+# target to generate assembly for a file
+polynom.cpp.s:
+	$(MAKE) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/polynom.cpp.s
+.PHONY : polynom.cpp.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -189,6 +216,9 @@ help:
 	@echo "... complex.o"
 	@echo "... complex.i"
 	@echo "... complex.s"
+	@echo "... polynom.o"
+	@echo "... polynom.i"
+	@echo "... polynom.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

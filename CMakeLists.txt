@@ -3,5 +3,5 @@ project(clion)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES test.cpp complex.cpp complex.h)
+set(SOURCE_FILES test.cpp complex.cpp complex.h polynom.cpp)
 add_executable(clion ${SOURCE_FILES})

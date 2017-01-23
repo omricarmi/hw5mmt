@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/clion.dir/test.cpp.o"
   "CMakeFiles/clion.dir/complex.cpp.o"
+  "CMakeFiles/clion.dir/polynom.cpp.o"
   "clion.pdb"
   "clion"
 )
