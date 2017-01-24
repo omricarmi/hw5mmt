@@ -25,13 +25,16 @@ public:
 
 
     //Operators - IO Stream
-    friend ostream& operator<<(ostream& ro,const complex c);
+    friend ostream& operator<<(ostream& ro,const complex& c);
 
     //Math Helpers
     friend complex conj(const complex& c);
     friend complex InnerProduct(const complex& x,const complex& y);
     friend complex SqNorm(const complex& c);
     friend complex SqDistance(const complex& x,const complex& y);
+
+    string toString() const;
+    string imgToString() const;
 
 private:
     void print(ostream& ro) const;
@@ -40,9 +43,9 @@ private:
 
 complex conj(const complex& c);
 complex InnerProduct(const complex& x,const complex& y);
+int InnerProduct(const int& x,const int& y);
 complex SqNorm(const complex& c);
 complex SqDistance(const complex& x,const complex& y);
-
-//ostream &operator<<(ostream &ro, const complex c) const;
+ostream &operator<<(ostream &ro, const complex& c);
 
 #endif

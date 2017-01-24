@@ -57,28 +57,28 @@ include CMakeFiles/clion.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/clion.dir/flags.make
 
-CMakeFiles/clion.dir/test.cpp.o: CMakeFiles/clion.dir/flags.make
-CMakeFiles/clion.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/omricarmi/Technion/Mmt/hw/hw5/clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clion.dir/test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clion.dir/test.cpp.o -c /Users/omricarmi/Technion/Mmt/hw/hw5/clion/test.cpp
+CMakeFiles/clion.dir/main.cpp.o: CMakeFiles/clion.dir/flags.make
+CMakeFiles/clion.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/omricarmi/Technion/Mmt/hw/hw5/clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clion.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clion.dir/main.cpp.o -c /Users/omricarmi/Technion/Mmt/hw/hw5/clion/main.cpp
 
-CMakeFiles/clion.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clion.dir/test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/omricarmi/Technion/Mmt/hw/hw5/clion/test.cpp > CMakeFiles/clion.dir/test.cpp.i
+CMakeFiles/clion.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clion.dir/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/omricarmi/Technion/Mmt/hw/hw5/clion/main.cpp > CMakeFiles/clion.dir/main.cpp.i
 
-CMakeFiles/clion.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clion.dir/test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/omricarmi/Technion/Mmt/hw/hw5/clion/test.cpp -o CMakeFiles/clion.dir/test.cpp.s
+CMakeFiles/clion.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clion.dir/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/omricarmi/Technion/Mmt/hw/hw5/clion/main.cpp -o CMakeFiles/clion.dir/main.cpp.s
 
-CMakeFiles/clion.dir/test.cpp.o.requires:
+CMakeFiles/clion.dir/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/clion.dir/test.cpp.o.requires
+.PHONY : CMakeFiles/clion.dir/main.cpp.o.requires
 
-CMakeFiles/clion.dir/test.cpp.o.provides: CMakeFiles/clion.dir/test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/test.cpp.o.provides.build
-.PHONY : CMakeFiles/clion.dir/test.cpp.o.provides
+CMakeFiles/clion.dir/main.cpp.o.provides: CMakeFiles/clion.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/clion.dir/main.cpp.o.provides
 
-CMakeFiles/clion.dir/test.cpp.o.provides.build: CMakeFiles/clion.dir/test.cpp.o
+CMakeFiles/clion.dir/main.cpp.o.provides.build: CMakeFiles/clion.dir/main.cpp.o
 
 
 CMakeFiles/clion.dir/complex.cpp.o: CMakeFiles/clion.dir/flags.make
@@ -131,14 +131,14 @@ CMakeFiles/clion.dir/polynom.cpp.o.provides.build: CMakeFiles/clion.dir/polynom.
 
 # Object files for target clion
 clion_OBJECTS = \
-"CMakeFiles/clion.dir/test.cpp.o" \
+"CMakeFiles/clion.dir/main.cpp.o" \
 "CMakeFiles/clion.dir/complex.cpp.o" \
 "CMakeFiles/clion.dir/polynom.cpp.o"
 
 # External object files for target clion
 clion_EXTERNAL_OBJECTS =
 
-clion: CMakeFiles/clion.dir/test.cpp.o
+clion: CMakeFiles/clion.dir/main.cpp.o
 clion: CMakeFiles/clion.dir/complex.cpp.o
 clion: CMakeFiles/clion.dir/polynom.cpp.o
 clion: CMakeFiles/clion.dir/build.make
@@ -151,7 +151,7 @@ CMakeFiles/clion.dir/build: clion
 
 .PHONY : CMakeFiles/clion.dir/build
 
-CMakeFiles/clion.dir/requires: CMakeFiles/clion.dir/test.cpp.o.requires
+CMakeFiles/clion.dir/requires: CMakeFiles/clion.dir/main.cpp.o.requires
 CMakeFiles/clion.dir/requires: CMakeFiles/clion.dir/complex.cpp.o.requires
 CMakeFiles/clion.dir/requires: CMakeFiles/clion.dir/polynom.cpp.o.requires
 

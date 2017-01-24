@@ -45,7 +45,7 @@ complex conj(const complex& c){
     return complex(c.re_,-1*c.im_);
 }
 
-ostream& operator<<(ostream& ro,const complex c){
+ostream& operator<<(ostream& ro,const complex& c){
     c.print(ro);
     return ro;
 }
@@ -100,4 +100,52 @@ complex SqNorm(const complex &c) {
 
 complex SqDistance(const complex &x, const complex &y) {
     return SqNorm(x-y);
+}
+
+string complex::toString() const {
+    string str = "";
+    //if num is 0
+    if(re_ == 0 && im_ == 0){
+        return "0";
+    }
+    //print re if exist and image not
+    if(re_ != 0 && im_ == 0){
+        str += to_string(re_);
+    }
+    //print image if exist and real not
+    if(re_ == 0 && im_ != 0){
+        str += imgToString();
+    }
+    //print both if both exists
+    if(re_ != 0 && im_ != 0){
+        str += to_string(re_);
+        if(im_ > 0){
+            str += "+";
+        }
+        str += imgToString();
+    }
+    return str;
+}
+
+string complex::imgToString() const {
+    string str = "";
+    if(im_ == 0) return "";
+
+    if(im_ == -1){
+        str += "-i";
+        return str;
+    }
+
+    if(im_ == 1){
+        str += "i";
+        return str;
+    }
+
+    str += to_string(im_) + "i";
+
+    return str;
+}
+
+int InnerProduct(const int& x,const int& y){
+    return x*y;
 }

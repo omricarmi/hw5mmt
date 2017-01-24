@@ -5,8 +5,11 @@
 #include <iostream>
 #include <cassert>
 #include "complex.h"
+#include "polynom.h"
 
 void testComplex();
+
+void testPolynom();
 
 using namespace std;
 
@@ -15,16 +18,26 @@ int main(){
 
     testComplex();
 
+    testPolynom();
+}
+
+void testPolynom() {
+
+    polynom p(2,(int[]){1,0,2});
+    assert( "2x^2+1" == p.toString());
+    p = polynom(3,(int[]){1,0,2,9});
+    assert( "9x^3+2x^2+1" == p.toString());
+
 }
 
 void testComplex() {
 
-    cout << complex(2,0) << endl; // prints 2
-    cout << complex(-2,0)<< endl ; // prints -2
-    cout << complex(0,0)<< endl ; // prints 0
-    cout << complex(2,1)<< endl ; // prints 2+i
-    cout << complex(2,-1)<< endl ; // prints 2-i
-    cout << complex(0,1)<< endl ; // prints i
-    cout << complex(0,-1)<< endl ; // prints -i
+    assert( "2" == complex(2,0).toString());
+    assert( "-2" == complex(-2,0).toString());
+    assert( "0" == complex(0,0).toString());
+    assert( "2+i" == complex(2,1).toString());
+    assert( "2-i" == complex(2,-1).toString());
+    assert( "i" == complex(0,1).toString());
+    assert( "-i" == complex(0,-1).toString());
 
 }

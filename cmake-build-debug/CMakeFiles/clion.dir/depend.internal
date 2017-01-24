@@ -4,6 +4,11 @@
 CMakeFiles/clion.dir/complex.cpp.o
  /Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.cpp
  /Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.h
-CMakeFiles/clion.dir/test.cpp.o
+CMakeFiles/clion.dir/main.cpp.o
+ /Users/omricarmi/Technion/Mmt/hw/hw5/clion/TempVec.h
  /Users/omricarmi/Technion/Mmt/hw/hw5/clion/complex.h
- /Users/omricarmi/Technion/Mmt/hw/hw5/clion/test.cpp
+ /Users/omricarmi/Technion/Mmt/hw/hw5/clion/main.cpp
+ /Users/omricarmi/Technion/Mmt/hw/hw5/clion/polynom.h
+CMakeFiles/clion.dir/polynom.cpp.o
+ /Users/omricarmi/Technion/Mmt/hw/hw5/clion/polynom.cpp
+ /Users/omricarmi/Technion/Mmt/hw/hw5/clion/polynom.h
